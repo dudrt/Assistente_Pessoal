@@ -17,7 +17,7 @@ def wait():
     try:
         with sr.Microphone() as source:
             print('.')
-            #audio.energy_threshold = 1600
+            #audio.energy_threshold = 1600 Caso seu microfone não capte sua voz, tente modificar esta linha de código e tire a de baixo
             audio.adjust_for_ambient_noise(source, duration=2)
 
             voz = audio.listen(source)
@@ -35,7 +35,7 @@ def inicial():
             cleiton.runAndWait()
             print('Ouvindo..')
             audio.adjust_for_ambient_noise(source, duration=2)
-            #audio.energy_threshold = 1600
+            #audio.energy_threshold = 1600 Caso seu microfone não capte sua voz, tente modificar esta linha de código e tire a de cima
             voz = audio.listen(source)
             comando = audio.recognize_google(voz, language='pt-BR')
             comando = comando.lower()
@@ -49,7 +49,6 @@ def storage(procurar):
     arquivo = open('storage.txt', 'r', encoding="utf8")
     for line in arquivo:
         primeira_palavra = line.split('/&*')
-        #print(primeira_palavra[0])
         if primeira_palavra[0] == procurar:
             arquivo.close()
             return primeira_palavra[1]
@@ -108,7 +107,6 @@ def funcoes():
         arquivo = open('interactions.txt', 'r', encoding="utf8")
         for line in arquivo:
             primeira_palavra = line.split('/&*')
-            #print(primeira_palavra[0])
             if primeira_palavra[0] == procurar:
                 arquivo.close()
                 return primeira_palavra[1]
