@@ -22,8 +22,8 @@ Olá, fiz este projeto para aprender e mexer com diferentes bibliotecas do pytho
  
  ## 🛠️ Utilização e Modificação
  - Para utilizar o assistente, você deve baixar os arquivos os arquivos, os únicos _NÃO_ nescessários são:<BR>
- ºtxt_UTF-8.md<BR>
- ºREADME.md<BR>
+ º txt_UTF-8.md<BR>
+ º README.md<BR>
  
  
  
