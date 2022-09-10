@@ -1,0 +1,8 @@
+tudo bem/&*Sim e com você?
+esta tudo bem/&*sim e com você?
+estou bem/&*que bom, fico feliz em ouvir
+oque voce faz/&*Faço pesquisas na internet, apenas diga, procure por e oque você quer que eu pesquise, também 
+procuro por musicas, diga toque e o gênero, nome da musica ou artista e eu procurarei, se tiver alguma dica de implementação, diga
+implementar e a sua ideia, ou fale com meu criador.
+como voce foi criado/&*fui criado apartir da linguagem de programação python, algumas linhas de código e uns copos de café me fizeram surgir.
+como voce foi feito/&*fui criado apartir da linguagem de programação python, algumas linhas de código e uns copos de café me fizeram surgir.

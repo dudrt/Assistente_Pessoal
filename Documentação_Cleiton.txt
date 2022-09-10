@@ -1,0 +1,8 @@
+audio.energy_threshold = 1800 // faz o speech_recognition entender a altura da voz 
+(pode mudar de acordo com microfones diferentes).
+
+/&* caracter que separa palavra chave do conteúdo do storage.
+
+Para ler arquivos txt com utf-8, criar arquivo e depois no VSCode salvar em modo encode utf-8.
+
+usaar eval()
