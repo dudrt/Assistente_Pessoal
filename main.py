@@ -85,7 +85,7 @@ def funcoes():
 #--------------------------fim procurar pessoa/coisas-------------------
 #--------------------------procura musica-------------------------------
     elif 'toque ' in comando or 'toc' in comando:
-        if 'funk' in comando:
+        if 'funk' in comando or 'phonk' in comando:
             arquivo = open('phonk_storage_music.txt', 'r', encoding="utf8")
             cleiton.say('Tocando Phonk')
             cleiton.runAndWait()
@@ -106,15 +106,16 @@ def funcoes():
     else:
         arquivo = open('interactions.txt', 'r', encoding="utf8")
         for line in arquivo:
+           for line in arquivo:
             primeira_palavra = line.split('/&*')
-            if primeira_palavra[0] == procurar:
-                arquivo.close()
-                return primeira_palavra[1]
-        if tem == '':
-            return ''
+            if primeira_palavra[0] == comando:
+                cleiton.say(primeira_palavra[1])
+                cleiton.runAndWait()
+            else:
+                print(comando)
 
 
-cleiton.say('Olá, eu sou o Cleiton, seu assistente!')
+cleiton.say('Olá, eu sou seu assistente!')
 cleiton.runAndWait()
 #----Deixa o bot rodando até você falar 'fechar'----
 while continuar:
