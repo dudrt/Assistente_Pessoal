@@ -25,6 +25,12 @@ Olá, fiz este projeto para aprender e mexer com diferentes bibliotecas do pytho
  - Para utilizar o assistente, você deve baixar os arquivos porém, os únicos _NÃO_ nescessários são:<BR>
  • txt_UTF-8.md<BR>
  • README.md<BR>
+ - Não esqueça também de baixar todas as bibliotecas utilizadas neste projeto.<br>
+ <a href='https://pypi.org/project/SpeechRecognition/'> `speech_recognition` </a> <br>
+ <a href='https://pypi.org/project/pyttsx3/'> `pyttsx3` </a> <br>
+ <a href='https://pypi.org/project/wikipedia/'> `wikipedia` </a> <br>
+ <a href='https://pypi.org/project/pywhatkit/'> `pywhatkit` </a> <br>
+  `random ` Biblioteca Padrão <br>
  - Para começar a dar comandos para o assistente você deve chama-lo:<br>
  • Rode o código e então chame seu assistente pelo nome, neste caso está 'Cleiton' ,mas você pode modificar na linha 126.<br>
  • Por algum acaso a biblioteca escolhida possui dificuldade em ouvir o nome Cleiton, então recomendo que você mude
